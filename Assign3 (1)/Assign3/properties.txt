@@ -1,0 +1,642 @@
+background
+
+This is a shorthand property and sets all the background properties in one declaration.
+
+Possible Values:
+
+attachment
+color
+image
+repeat
+position
+
+
+------------------------------------------------------
+
+background-attachment
+
+The background-attachment property specifies whether a background image is fixed with regard to the viewport or scrolls along with the containing block.
+
+Possible Values
+
+scroll (default) - the background image will scroll with the rest of the content.
+fixed - the background image will remain stationary as the rest of the content is scrolled.
+
+
+------------------------------------------------------
+
+
+background-color
+
+The background-color property sets the background color of an element.
+
+Possible Values
+
+transparent (default)
+color (colorname, HEX Value, etc.)
+
+
+------------------------------------------------------
+
+
+background-image
+
+The background-image property sets the background image of an element.
+
+Possible Values
+    
+none (default)
+URL
+
+
+------------------------------------------------------
+
+
+background-position
+
+
+Specifies the initial position of a background image within its containing element. 
+
+Possible Values
+
+top
+right
+bottom
+left
+center
+combination
+percentage
+length
+
+------------------------------------------------------
+
+
+background-repeat
+
+Specifies how a background image will repeat itself within an element.
+
+Possible Values
+
+    
+repeat (default) - tiled, repeating the image both horizontally and vertically.
+repeat-x - repeating the image horizontally only.
+repeat-y - repeating the image vertically only.
+no-repeat - not repeating the image at all, showing just one instance.
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+border
+
+The border shorthand property sets all the width, color, and style properties in one declaration.
+
+Possible Values
+
+width 
+style
+color
+
+
+------------------------------------------------------
+
+
+border-width
+
+specifies the width of a box’s border.
+
+Possible Values
+
+length
+thin
+medium
+thick
+
+border-width can have:
+
+one value, such as 10px, to specify the width of the entire border
+two values, such as 10px 5px, to specify the width of top/bottom (first value) and right/left (second value) borders
+three values, such as 10px 5px 2px, to specify the width of top (first value), right/left (second value) and bottom (third value) borders
+four values, such as 10px 5px 2px 1px, to specify the width of top, right, bottom and left borders respectively
+
+
+------------------------------------------------------
+
+
+border-style 
+
+specifies the style of an element's border.
+
+Possible Values
+
+none - no border.
+dotted - A series of dots 
+dashed - A series of dashes.
+solid - A solid line.
+double - Two solid lines.
+groove - Patterned border that is supposed to represent a carved groove (opposite of ridge)
+ridge - Patterned border that is supposed to represent an embossed ridge (opposite of groove)
+inset - Patterned border that is supposed to represent an inset depression (opposite of outset)
+outset - Patterned border that is supposed to represent an outset extrusion (opposite of inset)
+hidden - Used with tables. Same as "none", except where there are conflicting borders. 
+    
+border-style can have:
+
+one value, such as solid, to specify the style of the entire border
+two values, such as solid dotted, to specify the style of top/bottom (first value) and right/left (second value) borders
+three values, such as solid dotted dashed, to specify the style of top (first value), right/left (second value) and bottom (third value) borders
+or four values, such as solid dotted dashed groove, to specify the style of top, right, bottom and left borders respectively
+
+
+------------------------------------------------------
+
+border-color 
+
+specifies the color of a box’s border.
+
+Possible Values
+
+color
+transparent
+
+border-color can have:
+
+one value, such as red, to specify the color of the entire border
+two values, such as red blue, to specify the color of top/bottom (first value) and right/left (second value) borders
+three values, such as red blue green, to specify the color of top (first value), right/left (second value) and bottom (third value) borders
+four values, such as red blue green black, to specify the color of top, right, bottom and left borders respectively
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+clear
+
+The clear property controls how elements react to previously floated elements.
+
+Possible Values
+    
+none 
+left
+right 
+both 
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+color
+
+Sets the foreground color of an element.
+
+Possible Values
+    
+color
+
+Colors in CSS can be specified by the following methods:
+
+Hexadecimal colors
+RGB colors
+RGBA colors
+HSL colors
+HSLA colors
+Predefined/Cross-browser color names
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+display
+
+The display property specifies the type of box used for an element.
+
+
+Possible Values
+
+none
+inline 
+block 
+inline-block 
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+float
+
+The float property specifies whether a box should float to the left, right, or not at all.
+
+
+Possible Values
+
+    
+left 
+right 
+none (default)
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+font
+
+A shorthand property that sets several font properties in one declaration.
+
+
+Possible values
+
+
+style
+variant
+weight
+size
+line-height
+font-family
+
+
+
+------------------------------------------------------
+
+
+font-style
+
+The font-style property selects between normal, italic and oblique faces within a font family.
+
+
+
+Possible Values
+    
+normal
+italic
+oblique
+
+
+------------------------------------------------------
+
+
+font-variant
+
+Will set an element’s text to small-caps
+
+
+Possible Values
+    
+normal (default)
+small-caps
+
+
+------------------------------------------------------
+
+
+font-weight
+
+Sets the boldness of a font. 
+
+
+Possible Values
+
+    
+normal
+bolder
+bold
+lighter
+100, 200, 300... 900
+
+
+------------------------------------------------------
+  
+
+font-size
+
+Sets the size of a font.
+
+
+Possible Values
+
+    
+percentage
+length
+larger
+smaller
+xx-small
+x-small
+small
+medium (default)
+large
+x-large
+xx-large
+
+
+------------------------------------------------------
+
+
+font-family
+
+
+The font-family property specifies the font for an element.
+
+The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
+
+There are two types of font family names:
+
+family-name - The name of a font-family, like “Times New Roman”, "courier", "arial", etc.
+generic-family - The name of a generic-family, like "serif", "sans-serif", "cursive", "fantasy", "monospace".
+
+Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+
+Note: Separate each value with a comma. If a font name contains white-space, it must be quoted. Single quotes must be used when using the "style" attribute in HTML.
+
+
+Possible Values
+
+    
+font name
+multiple font names separated by commas
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+height
+
+
+Specifies the height of the content area of an element.
+
+Possible Values
+
+percentage
+length
+auto (default)
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+letter-spacing
+
+Specifies the spacing in-between letters. (Note: word-spacing is similar rule but specifies the spacing between words.)
+
+
+Possible Values
+
+length
+normal (default)
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+line-height
+
+Specifies the height of a line in text (spacing between lines in effect).
+
+Possible Values
+
+number that will be multiplied with the current font size to set the line height
+percentage of current font size
+fixed line-height in px, pt, cm, etc
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+
+list-style
+
+Specifies the style of a list item marker. This is a shorthand property that sets all list properties in one declaration.
+
+
+Possible Values
+
+
+type
+position
+image (url)
+
+
+
+------------------------------------------------------
+
+list-style-type
+
+Specifies the style of the list marker bullet or numbering system within a list.
+
+
+Possible Values
+
+    
+none - no list marker.
+disc - solid circle.
+circle - empty circle.
+square - solid square.
+decimal - 1, 2, 3, 4 etc.
+decimal-leading-zero - 01, 02, 03 ... 10, 11 etc. 
+lower-roman - i, ii, iii, iv etc.
+upper-roman - I, II, III, IV etc.
+lower-greek - Greek characters. 
+lower-latin - a, b, c, d etc. 
+upper-latin - A, B, C, D etc. 
+
+
+
+------------------------------------------------------
+
+list-style-position
+
+Specifies whether the list marker for a list item should appear inside or outside the list-item box.
+
+
+Possible Values
+
+    
+inside
+outside (default)
+
+
+------------------------------------------------------
+
+
+list-style-image
+
+Specifies an image to be used as the list marker for a list item.
+
+
+Possible Values
+
+URL
+none (default)
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+margin
+
+
+A shorthand property for setting the margin properties: margin-top, margin-right, margin-bottom, margin-left.
+
+Possible Values
+
+percentage
+length
+auto 
+ 	
+margin can have:
+
+one value such as 10px to specify an equal margin on every side
+two values, such as 10px 5px, to specify the top/bottom (first value) and right/left (second value) margin
+three values, such as 10px 5px 2px, to specify the top (first value), right/left (second value) and bottom (third value) margin
+four values, such as 10px 5px 2px 1px to specify the top, right, bottom and left margins respectively
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+opacity
+
+Sets the transparency of an element
+
+Possible Values
+
+number	( From 0.0 (fully transparent) to 1.0 (fully opaque) )
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+overflow
+
+Specifies what should happen to content that does not fit inside the box.
+
+
+Possible Values
+   
+visible (default) - overflow spills over the box.
+hidden - overflow can not be seen.
+scroll - the box scrolls to accommodate the overflow.
+auto - similar in practice to scroll, the box scrolls to accommodate the overflow.
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+padding
+
+This Shorthand property specifies the padding of a box for the following related properties: padding-top, padding-right, padding-bottom, padding-left
+
+
+Possible Values
+
+percentage
+length - ("0" is default)
+    
+padding can have:
+
+one value, such as 10px, to specify equal padding on every side
+two values, such as 10px 5px, to specify top/bottom (first value) and right/left (second value) padding
+three values, such as 10px 5px 2px, to specify top (first value), right/left (second value) and bottom (third value) padding
+four values, such as 10px 5px 2px 1px to specify top, right, bottom and left padding respectively
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+text-align
+
+
+Specifies the alignment of text inside an element.
+
+Possible Values
+
+    
+left
+right
+center
+justify
+
+------------------------------------------------------
+------------------------------------------------------
+
+text-decoration
+
+
+Specifies whether text is underlined, over-lined or has a strikethrough.
+
+Possible Values
+
+    
+none
+underline
+overline
+line-through
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+text-indent
+
+The text-indent property specifies the indentation of the first line in a element.
+
+Possible values
+
+length
+percentage
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+text-transform
+
+
+Specifies the case of text in an element.
+
+
+Possible Values
+
+    
+capitalize - Capitalizes the first letter of every word.
+uppercase - Forces every letter into uppercase.
+lowercase - Forces every letter into lowercase.
+none (default)
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+
+width
+
+Specifies the width of the content area of an element.
+
+
+Possible Values
+
+percentage
+length
+auto
+
+------------------------------------------------------
+------------------------------------------------------
+
+
+
+
+
+
+
+

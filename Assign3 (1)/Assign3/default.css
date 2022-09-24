@@ -1,0 +1,37 @@
+body {width: 1000px; background: whitesmoke; margin: 100px auto;}
+
+
+#header , #footer {background: rgb(43, 40, 240); 
+            height: 100px; 
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
+            color: white;
+            text-shadow: 5px 5px 5px rgb(0, 0, 0)}
+
+#navigation {float: left; 
+    width: 200px; 
+    background: lightblue;}
+#content {overflow: auto; background: white;}
+
+#navigation, #content {height: 400px;}
+
+#navigation li {list-style: none;}
+
+#navigation li:hover {background-color: rgb(0, 255, 76);
+                        font-size: 180%;}
+
+code {   background-color:black;
+        color: aqua;
+        padding: 20px;
+        display: block;
+        margin: 5 5 5 5;}
+
+a {text-decoration: none;}
+
+
+
+h1 {color: darkmagenta;}
+
+p {font: 19px helvetica, sans-serif;}
+
